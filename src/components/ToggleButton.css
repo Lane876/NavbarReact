@@ -1,0 +1,25 @@
+.hamburger {
+  width: 36px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  /* position: fixed; */
+  /* top: 3%;
+  right: 5%;
+  transform: translate(-5%, -5%); */
+}
+
+.line {
+  height: 2px;
+  width: 36px;
+  background: white;
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+}
